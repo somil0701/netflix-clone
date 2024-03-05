@@ -390,14 +390,49 @@ h1{
     .footer{
         padding: 40px 0;
     }
-
-    /* @media (max-width: 576px){
-        .navbar{
-            width: 100%;
+/* 
+    @media (max-width: 850px){
+        body{
+            overflow-x: hidden;
         }
+
+        .maincontainer,
+        .content,
+        .questions .ques,
+        .faq {
+            width: 95%;
+            max-width: none;
+        }
+
+    } */
+
+    @media (max-width: 850px){
         .content{
-            width: 100%;
+            flex-direction: column;
+            padding: 70px 0; 
+        }
+    }
+
+    @media (max-width: 655px){
+        .forminputs{
+            flex-direction: column;
+        }
+
+        .lastform p{
+            text-align: center;
+            padding: 0px 10px 10px 10px;
         }
         
-    } */
+        img{
+            width: 300px;
+        }
+
+        video{
+            width: 222px;
+        }
+
+        .description .heading{
+            font-size: 30px;
+        }
+    }
 }
