@@ -432,7 +432,11 @@ h1{
         }
 
         .description .heading{
-            font-size: 30px;
+            font-size: 25px;
+        }
+
+        .description .para{
+            font-size: 14px;
         }
     }
 }
